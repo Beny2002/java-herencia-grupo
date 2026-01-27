@@ -49,7 +49,7 @@ public class Desarrollador extends Empleado {
     public double calcularSalario() {
         double salario = super.calcularSalario();
 
-        // Plus por nivel
+       
         switch (nivel.toUpperCase()) {
             case "MID":
                 salario *= 1.15;
