@@ -1,4 +1,4 @@
-public class Persona {
+public abstract class Persona {
     String nombre;
     String dni;
     int edad;
